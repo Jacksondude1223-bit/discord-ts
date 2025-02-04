@@ -14,6 +14,7 @@ import { readdirSync } from "fs";
 import dotenv from "dotenv";
 dotenv.config();
 import testCommand from "./slashCommands/ping";
+import BanCommand from "./slashcommands/banscan";
 
 const token = process.env.DISCORD_TOKEN; // Token from Railway Env Variable.
 const client_id = process.env.CLIENT_ID;
